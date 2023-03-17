@@ -1,0 +1,119 @@
+body {
+    color: #595959;
+    font-family: serif;
+}
+
+strong {
+    font-family: 'Oswald';
+    font-size: .75em;
+    opacity: .7;
+    text-transform: uppercase;
+}
+
+h1 {
+    color: #525252;
+    font-family: 'Oswald';
+    font-size: 3em;
+    font-weight: bolder;
+}
+
+h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: .5em;
+}
+
+a.mainlink {
+    background-color: #ba6f57;
+    color: white;
+    display: inline-block;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+    width: 150px;
+}
+
+/* Center everything */
+
+body header {
+    font-size: 1em;
+}
+
+body>header,
+main,
+footer {
+    margin: auto;
+    width: 900px;
+}
+
+.bodycolumntop {
+    border-top: .5em solid white;
+    border-image: repeating-linear-gradient(-45deg, transparent 5px, white 10px, black px) 11;
+    padding-top: 1.5em;
+    margin-top: 2.5em;
+}
+
+/* Top Block */
+
+body>header {
+    color: gray;
+    overflow: hidden;
+    position: relative;
+}
+
+body>header>.head {
+    display: block;
+    font-family: 'Yellowtail', cursive;
+    font-size: 2em;
+}
+
+body>header>img {
+    float: right;
+    position: relative;
+    top: -6px;
+}
+body>header strong {
+    font-size: .75em;
+}
+
+body>header>nav,
+body>header>nav>ul {
+    float: right;
+    position: relative;
+    top: -6px;
+}
+
+body>header>nav>ul:first-child {
+    margin-left: 1em;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+/* Footer */
+
+footer {
+    color: white;
+    margin-top: 3em;
+    position: relative;
+    text-align: center;
+}
+
+footer img {
+    border-left: 1em solid white;
+    border-right: 1em solid white;
+    margin-bottom: 1.5em;
+}
+
+footer:before {
+    border-top: 1em solid wheat;
+    content: "";
+    width: 100%;
+    position: absolute;
+    top: 15px;
+    left: 0px;
+    z-index: -1;
+}
